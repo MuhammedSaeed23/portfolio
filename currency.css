@@ -1,0 +1,135 @@
+ *{ 
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+} 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(135deg, #E2E8F0, #CBD5E1);
+}
+.currency-container{
+   
+    background-color: rgb(241, 245, 244);
+    width: 16rem;
+    height: 18rem;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: 5px 10px 60px 10px rgba(0,0,0,0.3);
+    border: 6px solid lightgray;     /* upar mota */
+    margin-top: -125px;
+    transition: transform 0.3s ease;
+ }
+ input{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    height: 2.50rem;
+    width: 16rem;
+    margin-top: 1rem;
+    padding-left: 5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3) ;
+ }
+ .locater{
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    margin-top:1rem;
+    align-items: center;
+    margin-left: 5px;
+ }
+ img{
+    height: 30px;
+ }
+ .from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(245, 239, 239);
+    width: 7rem;
+    height: 3rem;
+    border-radius: 12px;
+    font-size: small;
+    border: 2px solid lightgrey;
+    box-shadow:0 0 10px rgba(0,0,0,0.3) ;
+    gap: 3px;
+
+ }
+.to{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:7rem;
+    height: 3rem;
+    background-color:rgb(245, 239, 239);
+    border-radius: 12px;
+    font-size: small;
+    border: 2px solid lightgrey;
+    box-shadow:0 0 10px rgba(0,0,0,0.3) ;
+    gap: 3px;
+ }
+ .submit{
+    margin-top: 1.50rem;
+    height: 35px;
+    width: 16rem;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 12px;
+    box-shadow:0 0 15px 0px blueviolet ;
+    transition: transform 0.3s ease;
+
+ }
+ select{
+   border: none;
+   width: 3rem;
+   height: 1rem;
+   background-color:rgb(245, 239, 239);
+   margin-top: 7px;
+ }
+ .p1{
+   margin-top: 1rem;
+   margin-left: 5px;
+
+ }
+ #p2{
+   margin-top: 1.5rem;
+   margin-left: 10px;
+   font-weight: 500;
+   font-size: medium;
+ }
+ .icon{
+   margin-top: 2px;
+ }
+.select-container{
+   display: flex;   
+}
+.submit:hover{
+   transform: scale(1.10);
+   box-shadow:0 0 15px 0px rgb(122, 19, 218) ;
+    background-color: rgb(119, 25, 207);
+}
+.currency-container:hover{
+   transform: scale(1.05);
+    box-shadow: 5px 10px 60px 10px rgba(0, 0, 0, 0.589);
+}
+footer{
+   height: 2rem;
+   width: 100%;
+   position: fixed;                /* bottom pe fixed */
+   bottom: 0;
+   text-align: center;
+   color: #111827;
+   background-color: #E5E7EB;
+   margin-bottom: 1.5rem;
+   padding-top:4px ;
+   font-weight: 100;
+}
+.dot{
+   font-weight: bolder;
+   font-size: xx-large;
+   rotate: 360deg;
+}
